@@ -1,0 +1,90 @@
+:root {
+    --Oren: #fffb00;
+    --putih: #ffffff;
+    --Item: #000000;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+    }
+    
+    body{
+        font-family: "Poppins" sans-serif;
+        background-color: var(--Item);
+        color: white;
+    }
+    
+
+    
+    
+    .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-image: url('../img/GAMBARAN.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media (max-width: 1366px){
+        html{
+        font-size: 75%;
+        }
+    }
+    @media (max-width: 768px){
+        html{
+        font-size: 62.5%;
+        }
+ 
+        
+    }
+    @media (max-width: 450px){
+        html{
+        font-size: 55%;
+        }
+        
+    }
+
+.content {
+    color: #000000;
+    padding: 1.4rem 46%;
+    background-color: beige;
+}
+
+/* .content1{
+    /* position: absolute; */
+    /* top: 1.4cm;
+    right: -100%;
+    background-color: #ffffff;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
+} */
+/* .content1 .ditekan.active {
+    right: 0%;
+}    */ 
+
+.navbar .navbar-nav{
+    position: absolute;
+    top: 1.4cm;
+    right: -100%;
+    background-color: #2e2e2e;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
+}
+.navbar .navbar-nav a{
+    display: block;
+    margin: 1.3rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+.navbar .navbar-nav.active {
+    right: 0%;
+}
