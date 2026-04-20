@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Fillet Ikan Salmon(100gr) ",
+        "price": 35,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Ikan Kakap Merah(100gr) ",
+        "price": 12,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Udang Putih(100gr)",
+        "price": 13,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Cumi-Cumi(100gr) ",
+        "price": 10,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Kerang Hijau(100gr) ",
+        "price": 5,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" Ikan Tenggiri(100gr) ",
+        "price": 15,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" Lobster Air Tawar(100gr) ",
+        "price": 25,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" Kepiting Bakau(100gr) ",
+        "price": 30,
+        "image": "image/8.png"
+    }
+
+]
